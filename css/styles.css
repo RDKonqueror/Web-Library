@@ -1,0 +1,267 @@
+/*-- Styles for WebLibrary.html
+  -- Designed by: Rahul Dey
+  -- E-mail: deyr2752@gmail.com
+  -- Date: Oct 24
+  -- © All Rights Reserved 2017
+  --*/
+  
+body {
+  background: rgb(59,100,150) url('/img/b3.jpg') repeat-x;
+  font: 2em normal 'Gill Sans', 'Droid Sans', 'Calibri', 'Lucida Grande', 'Trebuchet MS', 'Helvetica Neue', 'Arial', sans-serif;
+  color: #fff;
+}
+header {
+  height: 50px;
+  margin-bottom: 50px;
+}
+header h1 {
+  background: url('/img/ws-logo.jpg') no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+  height: 50px;
+  text-indent: -99999px;
+  width: 50px;
+}
+header .left {
+  width: 67%;
+}
+form input[type=search] {
+  background: transparent url('/img/ic_search.png') no-repeat 95% 50%;
+  border: 2px solid #fff;
+  font-size: 1em;
+  color: #fff;
+  -moz-border-radius: 0.5em;
+  -webkit-border-radius: 0.5em;
+  -o-border-radius: 0.5em;
+  -ms-border-radius: 0.5em;
+  border-radius: 0.5em;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; 
+  padding: 0.5em 1.2em 0.5em 0.8em;
+  width: 100%;
+}
+form input[type=search]:hover, .search input[type=search]:focus {
+  border-color: #000;
+  color: #555;
+}
+::-webkit-input-placeholder {
+   color: rgba(255, 255, 255, 0.8);
+}
+:-moz-placeholder {
+   color: rgba(255, 255, 255, 0.8);
+}
+form button {
+  background: none;
+  padding: 0;
+  border: 0;
+  width: 2em;
+  height: 2em;
+  text-indent: -99999em;
+  position: absolute;
+  top: 0;
+  right: 1em;
+  z-index: 1;
+  cursor: pointer;
+}
+.shares {
+  float: right;
+  width: 30%;
+  text-align: right;
+  position: relative;
+}
+.column {
+  display: inline-block;
+  margin: 10px;
+  vertical-align: middle;
+}
+.wrapper {
+  clear: both;
+  margin-left: 2%;
+  margin-right: 2%;
+  *zoom: 1;
+}
+.wrapper:after {
+  clear: both;
+}
+.wrapper:after, wrapper:before {
+  content: ".";
+  display: table;
+}
+.sec-height {
+  height: 600px;
+}
+.sec-width {
+  width: 45%;
+}
+.left {
+  float: left;
+  width: 60%;
+  margin-right: 1.5%;
+  position: relative;
+}
+.aside {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 1.5%;
+  float: right;
+  width: 30%;
+  text-align: right;
+  position: relative;
+}
+.aside h1 {
+  margin-top: 40px;
+  font-size: 300%;
+  font-weight: 800%;
+  font-stretch: ultra-expanded;
+  letter-spacing: 5px;
+  font-family: 'Trebuchet MS', 'Helvetica Neue', 'Arial', sans-serif;
+}
+.aside p {
+  margin-top: 1em;
+  font-size: 2em;
+  font-stretch: ultr-expanded;
+}
+.main-col {
+  display: inline-block;
+  vertical-align: top;
+}
+.main-col img {
+  -moz-border-radius: 0.7em;
+  -webkit-border-radius: 0.7em;
+  -o-border-radius: 0.7em;
+  -ms-border-radius: 0.7em;
+  border-radius: 0.7em;
+  margin: 10px;
+}
+footer {
+  height: 60px;
+  border: none;
+  margin-top: 15px;
+  background: #555; 
+  background: -moz-linear-gradient(top, #555 0%, #777 100%); 
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#555), color-stop(100%,#777)); 
+  background: -webkit-linear-gradient(top, #555 0%, #777 100%); 
+  background: -o-linear-gradient(top, #555 0%,#777 100%);
+  background: -ms-linear-gradient(top, #555 0%,#777 100%); 
+  background: linear-gradient(top, #555 0%,#777 100%);
+}
+footer.wrapper {
+  margin-left: 0;
+  margin-right: 0;
+}
+.foot-sec {
+  margin-top: 10px;
+  margin-right: 15px;
+  float: right;
+  width: 30%;
+  text-align: right;
+  line-height: 25px;
+  position: relative;
+}
+footer button {
+  margin-left: 15px;
+  background: transparent;
+  border-left: 1px solid #222;
+  border-right: 1px solid #222;
+  border-top: none;
+  border-bottom: none;
+  cursor: pointer;
+}
+#menu {
+  width: 200px;
+  height: 500px;
+  overflow: hidden;
+  display: none;
+  color: #000;
+  background: #6cf; 
+  background: -moz-linear-gradient(top, #6cf 0%, #ccc 100%); 
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#6cf), color-stop(100%, #ccc)); 
+  background: -webkit-linear-gradient(top, #6cf 0%, #ccc 100%); 
+  background: -o-linear-gradient(top, #6cf 0%,#ccc 100%);
+  background: -ms-linear-gradient(top, #6cf 0%,#ccc 100%); 
+  background: linear-gradient(top, #6cf 0%,#ccc 100%);
+  border: 3px solid #fff;
+  margin-top: -500px;
+  margin-left: 40px;
+  padding-left: 5px;
+  padding-right: 5px;
+  float: left;
+  position: relative;
+}
+.inner-menu li {
+  border-bottom: 1px solid #999;
+  padding: 5px;
+  font-size: 1.5em;
+}
+.inner-menu a:link, #dialog-1 a:link {
+  color: #000;
+  text-decoration: none;
+}
+.inner-menu a:visited, #dialog-1 a:visited {
+  color: #666;
+  text-decoration: none;
+}
+.inner-menu a:hover li, #dialog-1 a:hover li {
+  background-color: #888; 
+  background-color: -moz-linear-gradient(top, #888 0%, #aaa 100%); 
+  background-color: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#888), color-stop(100%,#aaa)); 
+  background-color: -webkit-linear-gradient(top, #888 0%, #aaa 100%); 
+  background-color: -o-linear-gradient(top, #888 0%,#aaa 100%);
+  background-color: -ms-linear-gradient(top, #888 0%,#aaa 100%); 
+  background-color: linear-gradient(top, #888 0%,#aaa 100%);
+  color: #fff;
+  text-decoration: none;
+}
+.inner-menu a:active li, #dialog-1 a:active li {
+  background-color: #888; 
+  background-color: -moz-linear-gradient(top, #888 0%, #aaa 100%); 
+  background-color: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#888), color-stop(100%,#aaa)); 
+  background-color: -webkit-linear-gradient(top, #888 0%, #aaa 100%); 
+  background-color: -o-linear-gradient(top, #888 0%,#aaa 100%);
+  background-color: -ms-linear-gradient(top, #888 0%,#aaa 100%); 
+  background-color: linear-gradient(top, #888 0%,#aaa 100%);
+  color: #fff;
+  text-decoration: none;
+}
+#dialog-1 {
+  display: none;
+  position: relative;
+  background: #6cf; 
+  background: -moz-linear-gradient(top, #6cf 0%, #ccc 100%); 
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#6cf), color-stop(100%, #ccc)); 
+  background: -webkit-linear-gradient(top, #6cf 0%, #ccc 100%); 
+  background: -o-linear-gradient(top, #6cf 0%,#ccc 100%);
+  background: -ms-linear-gradient(top, #6cf 0%,#ccc 100%); 
+  background: linear-gradient(top, #6cf 0%,#ccc 100%);
+}
+#dialog-1 li {
+  padding: 10px 5px;
+  border-bottom: 1px solid #ccc;
+  font-size: 1.3em;
+}
+li.no-border {
+  border-bottom: none;
+}
+#dialog-1 a li b {
+  font-weight: bolder;
+}
+
+@media screen and (max-width: 46em) {
+  
+  .aside, section.left, .shares, header.left column, header left, main-col {
+    width: 100%;
+    display: block;
+  }
+  section.left {
+    text-align: center;
+  }
+  footer, sec-height, header {
+    width: 100%;
+    height: auto;
+  }
+  .sec-width {
+    width:75%;
+  }
+
+}
