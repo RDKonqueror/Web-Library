@@ -263,5 +263,8 @@ li.no-border {
   .sec-width {
     width:75%;
   }
+#menu {
+   height: auto;
+}
 
 }
