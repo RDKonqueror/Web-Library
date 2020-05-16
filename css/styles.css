@@ -6,7 +6,7 @@
   --*/
   
 body {
-  background: rgb(59,100,150) url('/img/b3.jpg') repeat-x;
+  background: rgb(59,100,150) url('../img/b3.jpg') repeat-x;
   font: 2em normal 'Gill Sans', 'Droid Sans', 'Calibri', 'Lucida Grande', 'Trebuchet MS', 'Helvetica Neue', 'Arial', sans-serif;
   color: #fff;
 }
@@ -15,7 +15,7 @@ header {
   margin-bottom: 50px;
 }
 header h1 {
-  background: url('/img/ws-logo.jpg') no-repeat;
+  background: url('../img/ws-logo.jpg') no-repeat;
   background-size: cover;
   border-radius: 50%;
   height: 50px;
@@ -26,7 +26,7 @@ header .left {
   width: 67%;
 }
 form input[type=search] {
-  background: transparent url('/img/ic_search.png') no-repeat 95% 50%;
+  background: transparent url('../img/ic_search.png') no-repeat 95% 50%;
   border: 2px solid #fff;
   font-size: 1em;
   color: #fff;
@@ -85,7 +85,7 @@ form button {
   clear: both;
 }
 .wrapper:after, wrapper:before {
-  content: ".";
+  content: "";
   display: table;
 }
 .sec-height {
@@ -188,6 +188,7 @@ footer button {
   padding-right: 5px;
   float: left;
   position: relative;
+  font-size: 0.85em;
 }
 .inner-menu li {
   border-bottom: 1px solid #999;
@@ -253,7 +254,7 @@ li.no-border {
     width: 100%;
     display: block;
   }
-  section.left {
+  section section.left {
     text-align: center;
   }
   footer, sec-height, header {
@@ -263,8 +264,8 @@ li.no-border {
   .sec-width {
     width:75%;
   }
-#menu {
-   height: auto;
-}
+  #menu {
+    height: auto;
+  }
 
 }
